@@ -42,3 +42,11 @@ Si deseas clonar y ejecutar este proyecto localmente:
    ```bash
    git clone [https://github.com/Deniz78y1966/portfolio.git](https://github.com/Deniz78y1966/portfolio.git)
    cd portfolio
+
+2. **Instala dependencias:**
+   ```bash
+   npm install
+
+3. **Ejecuta el servidor de desarrollo:**
+   ```bash
+   npm run dev
