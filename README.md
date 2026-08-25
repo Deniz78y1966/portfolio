@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio — Génesis Denisse Matos Rosario
+---
 
-## Getting Started
+Este es mi portafolio personal. Un proyecto en el que de manera interactiva y responsiva puedo  presentar mi experiencia en el camino hacia **Full-stack Software Developer**. 
 
-First, run the development server:
+ **Sitio web:** [Portafolio](portfolio-seven-rho-rojerz59a0.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Lenguaje:** [TypeScript](https://www.typescriptlang.org/)
+* **Estilos:** [Tailwind CSS v4](https://tailwindcss.com/)
+* **Animaciones:** Animaciones personalizadas con CSS keyframes y degradados dinámicos en `globals.css`
+* **Despliegue:** [Vercel](https://vercel.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌟 Características Principales
 
-To learn more about Next.js, take a look at the following resources:
+* **Fondo Dinámico:** Degradados animados creados con keyframes nativos en Tailwind CSS.
+* **Diseño Responsivo:** Adaptado para dispositivos móviles, tabletas y monitores de escritorio.
+* **Sección de Proyectos:** Tarjetas informativas con etiquetas tecnológicas y detección dinámica del estado del repositorio (enlaces a código fuente o indicadores de proyectos *en progreso*).
+* **Skills Dashboard:** Clasificación limpia por categorías (Lenguajes, Frameworks, Bases de Datos y DevOps).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Proyectos Destacados en el Portafolio
 
-## Deploy on Vercel
+1. **Biblioteca Móvil:** Aplicación móvil en `.NET MAUI` y `C#` orientada al seguimiento visual y organización del hábito lector.
+2. **Panel de Control del PIB Mundial:** Dashboard interactivo desarrollado con `Python`, `Streamlit` y `Plotly` para análisis visual de datos económicos.
+3. **SoftEstimulation (En desarrollo):** Plataforma SaaS integral para la gestión de centros de estimulación temprana con arquitectura modular backend/frontend y control de acceso basado en roles (RBAC).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Ejecución en Entorno Local
+
+Si deseas clonar y ejecutar este proyecto localmente:
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/Deniz78y1966/portfolio.git](https://github.com/Deniz78y1966/portfolio.git)
+   cd portfolio
+
+2. **Instala dependencias:**
+   ```bash
+   npm install
+
+3. **Ejecuta el servidor de desarrollo:**
+   ```bash
+   npm run dev
