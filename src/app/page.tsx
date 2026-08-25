@@ -22,8 +22,8 @@ const PROJECTS = [
 ];
 
 const SKILLS = {
-  Languages: ['TypeScript', 'JavaScript', 'C#', 'SQL', 'HTML/CSS'],
-  Frameworks: ['Next.js', 'React', 'Node.js', 'Express', 'ASP.NET Core'],
+  Languages: ['TypeScript', 'JavaScript', 'C#', 'SQL', 'HTML/CSS', 'Tailwind CSS', 'Python', 'PHP'],
+  Frameworks: ['Next.js', 'React', 'Node.js', 'ASP.NET Core'],
   Databases: ['MySQL', 'SQL Server', 'MongoDB'],
   DevOps: ['Git', 'Docker', 'Vercel'],
 };
