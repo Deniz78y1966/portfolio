@@ -24,8 +24,8 @@ const PROJECTS = [
 const SKILLS = {
   Languages: ['TypeScript', 'JavaScript', 'C#', 'SQL', 'HTML/CSS'],
   Frameworks: ['Next.js', 'React', 'Node.js', 'Express', 'ASP.NET Core'],
-  Databases: ['PostgreSQL', 'MySQL', 'SQL Server', 'MongoDB'],
-  DevOps: ['Git', 'Docker', 'Vercel', 'Render', 'CI/CD'],
+  Databases: ['MySQL', 'SQL Server', 'MongoDB'],
+  DevOps: ['Git', 'Docker', 'Vercel'],
 };
 
 export default function Home() {
