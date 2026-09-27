@@ -33,33 +33,48 @@ export default function Home() {
     <div className="min-h-screen bg-[linear-gradient(-45deg,#064e3b,#18181b,#78350f,#0f766e,#18181b)] bg-[length:300%_300%] animate-[gradientBG_10s_ease_infinite] text-zinc-100 font-sans">
       <main className="max-w-6xl mx-auto px-6 md:px-12 py-12">
         {/* Hero Section */}
-        <section className="space-y-4 py-12">
-          <span className="text-[#9DF5D0] text-sm font-semibold tracking-wide uppercase">
-            Software Developer
-          </span>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
-            Hey, soy <span className="text-amber-500">Génesis Denisse Matos Rosario</span>.
-          </h1>
-          <p className="text-zinc-300 text-lg md:text-xl max-w-none leading-relaxed">
-            Una estudiante de último año de Desarrollo de Software Full-stack adquiriendo experiencia en la creación de aplicaciones web y móviles utilizando tecnologías modernas y mejores prácticas de desarrollo que he ido aprendiendo en el camino. Paso la mayor parte del tiempo aprendiendo, y la otra mitad poniendo en práctica mis conocimientos.
-          </p>
-          <div className="flex gap-4 pt-4">
-            <a
-              href="https://github.com/Deniz78y1966"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-5 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-zinc-950 font-semibold transition shadow-lg"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/génesis-denisse-matos-rosario-54141a376"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-5 py-2.5 rounded-lg border border-zinc-700/80 bg-zinc-900/40 backdrop-blur-sm hover:border-amber-500 text-zinc-300 font-medium transition"
-            >
-              LinkedIn
-            </a>
+        <section className="py-12">
+          <div className="grid items-center gap-8 md:grid-cols-[1.5fr_0.9fr]">
+            <div className="space-y-4">
+              <span className="text-[#9DF5D0] text-sm font-semibold tracking-wide uppercase">
+                Software Developer
+              </span>
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white leading-tight">
+                Hey, soy <span className="text-amber-500">Génesis Denisse Matos Rosario</span>.
+              </h1>
+              <p className="text-zinc-300 text-lg md:text-xl max-w-none leading-relaxed">
+                egresada del Itla en la carrera Desarrollo de Software con enfoque al backend, acttualmente adquiriendo experiencia en la creación de aplicaciones web y móviles utilizando tecnologías modernas y mejores prácticas de desarrollo que he ido aprendiendo en el camino. Paso la mayor parte del tiempo aprendiendo, y la otra mitad poniendo en práctica mis conocimientos.
+              </p>
+              <div className="flex gap-4 pt-4">
+                <a
+                  href="https://github.com/Deniz78y1966"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-zinc-950 font-semibold transition shadow-lg"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/génesis-denisse-matos-rosario-54141a376"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2.5 rounded-lg border border-zinc-700/80 bg-zinc-900/40 backdrop-blur-sm hover:border-amber-500 text-zinc-300 font-medium transition"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-center md:justify-end">
+              <div className="relative w-full max-w-xs aspect-[4/5] overflow-hidden rounded-3xl border border-zinc-700/60 bg-[radial-gradient(circle_at_top,_rgba(157,245,208,0.22),_transparent_40%),linear-gradient(135deg,#111827,#1f2937,#0f172a)] shadow-2xl shadow-zinc-950/50">
+                <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(245,158,11,0.22),transparent,rgba(157,245,208,0.18))]" />
+                <img
+                  src="/profile.jpg"
+                  alt="Génesis Denisse Matos Rosario"
+                  className="relative h-full w-full object-cover object-center"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
