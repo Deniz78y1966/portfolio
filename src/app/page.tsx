@@ -14,11 +14,18 @@ const PROJECTS = [
     github: 'https://github.com/Deniz78y1966/gdp-dashboard.git'
   },
   {
+    title: 'Flowdy Timer',
+    description: 'Página web con un temporizador de enfoque para estudiantes con estética pixelada inspirada en Minecraft. Úsalo como cronómetro o como cuenta regresiva, y lleva el control de tus tareas mientras un planeta Tierra gira lentamente de fondo.',
+    tech: ['Python', 'Next.js', 'Tailwind CSS', 'TypeScript', 'FastAPI'],
+    github: 'https://github.com/Deniz78y1966/flowdytimer.git'
+  },
+  {
     title: 'SoftEstimulation',
     description: 'Plataforma SaaS integral para la gestión de centros de estimulación temprana. Cuenta con autenticación segura y control de acceso basado en roles para administradores (gestión de niños, pagos y personal), empleados (actividades y nómina) y padres (seguimiento del niño y pagos).',
     tech: ['Python', 'Next.js', 'Tailwind CSS', 'TypeScript', 'FastAPI'],
     // Sin propiedad github para indicar que está privado / en progreso
   },
+
 ];
 
 const SKILLS = {
