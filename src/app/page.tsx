@@ -1,6 +1,13 @@
 import Link from 'next/link';
 
 const PROJECTS = [
+    {
+    title: 'Flowdy Timer',
+    description: 'Página web con un temporizador de enfoque para estudiantes con estética pixelada inspirada en Minecraft. Úsalo como cronómetro o como cuenta regresiva, y lleva el control de tus tareas mientras un planeta Tierra gira lentamente de fondo.',
+    tech: ['Python', 'Next.js', 'Tailwind CSS', 'TypeScript', 'FastAPI'],
+    github: 'https://github.com/Deniz78y1966/flowdytimer.git',
+    demo: 'https://flowdytimer.vercel.app/'
+  },
   {
     title: 'Biblioteca Móvil',
     description: 'Esta app permite a los usuarios centralizar la información de sus libros en un solo lugar. El proyecto se enfoca en la usabilidad y el seguimiento visual, permitiendo clasificar lecturas entre pendientes y terminadas, además de ofrecer una sección de métricas para motivar el hábito lector.',
@@ -12,12 +19,6 @@ const PROJECTS = [
     description: 'Una aplicación sencilla e interactiva desarrollada con Streamlit, diseñada para visualizar y analizar datos del Producto Interior Bruto (PIB) mundial.',
     tech: ['Python', 'Streamlit', 'Plotly', 'Pandas'],
     github: 'https://github.com/Deniz78y1966/gdp-dashboard.git'
-  },
-  {
-    title: 'Flowdy Timer',
-    description: 'Página web con un temporizador de enfoque para estudiantes con estética pixelada inspirada en Minecraft. Úsalo como cronómetro o como cuenta regresiva, y lleva el control de tus tareas mientras un planeta Tierra gira lentamente de fondo.',
-    tech: ['Python', 'Next.js', 'Tailwind CSS', 'TypeScript', 'FastAPI'],
-    github: 'https://github.com/Deniz78y1966/flowdytimer.git'
   },
   {
     title: 'SoftEstimulation',
@@ -119,6 +120,11 @@ export default function Home() {
                       </span>
                       En progreso
                     </span>
+                  )}
+                  {'demo' in project && project.demo && (
+                    <Link href={project.demo} target="_blank" rel="noopener noreferrer" className="text-zinc-300 hover:text-[#9DF5D0] transition">
+                      Ver proyecto &rarr;
+                    </Link>
                   )}
                 </div>
               </div>
