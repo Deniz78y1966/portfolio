@@ -34,7 +34,7 @@ export default function Home() {
       <main className="max-w-6xl mx-auto px-6 md:px-12 py-12">
         {/* Hero Section */}
         <section className="py-12">
-          <div className="grid items-center gap-8 md:grid-cols-[1.5fr_0.9fr]">
+          <div className="grid items-center gap-6 md:grid-cols-[1.7fr_0.7fr]">
             <div className="space-y-4">
               <span className="text-[#9DF5D0] text-sm font-semibold tracking-wide uppercase">
                 Software Developer
@@ -43,7 +43,7 @@ export default function Home() {
                 Hey, soy <span className="text-amber-500">Génesis Denisse Matos Rosario</span>.
               </h1>
               <p className="text-zinc-300 text-lg md:text-xl max-w-none leading-relaxed">
-                egresada del Itla en la carrera Desarrollo de Software con enfoque al backend, acttualmente adquiriendo experiencia en la creación de aplicaciones web y móviles utilizando tecnologías modernas y mejores prácticas de desarrollo que he ido aprendiendo en el camino. Paso la mayor parte del tiempo aprendiendo, y la otra mitad poniendo en práctica mis conocimientos.
+                Egresada del Itla en la carrera Desarrollo de Software con enfoque al backend, acttualmente adquiriendo experiencia en la creación de aplicaciones web y móviles utilizando tecnologías modernas y mejores prácticas de desarrollo que he ido aprendiendo en el camino. Paso la mayor parte del tiempo aprendiendo, y la otra mitad poniendo en práctica mis conocimientos.
               </p>
               <div className="flex gap-4 pt-4">
                 <a
@@ -66,10 +66,10 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center md:justify-end">
-              <div className="relative w-full max-w-xs aspect-[4/5] overflow-hidden rounded-3xl border border-zinc-700/60 bg-[radial-gradient(circle_at_top,_rgba(157,245,208,0.22),_transparent_40%),linear-gradient(135deg,#111827,#1f2937,#0f172a)] shadow-2xl shadow-zinc-950/50">
+              <div className="relative w-full max-w-[270px] aspect-[4/5] overflow-hidden rounded-3xl border border-zinc-700/60 bg-[radial-gradient(circle_at_top,_rgba(157,245,208,0.22),_transparent_40%),linear-gradient(135deg,#111827,#1f2937,#0f172a)] shadow-2xl shadow-zinc-950/50">
                 <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(245,158,11,0.22),transparent,rgba(157,245,208,0.18))]" />
                 <img
-                  src="/profile.jpg"
+                  src="/CV_image.jpg?v=2"
                   alt="Génesis Denisse Matos Rosario"
                   className="relative h-full w-full object-cover object-center"
                 />
